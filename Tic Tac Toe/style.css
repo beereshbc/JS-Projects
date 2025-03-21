@@ -1,0 +1,32 @@
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;  
+  font-family: cursive;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid gray;
+    font-size: 50px;
+    line-height: 75px;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    align-items: center;
+    background-color: aqua;
+    border: 0;
+    outline: 0;
+
+}
+
+
+
+.cell-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    width: 225px;
+    
+}

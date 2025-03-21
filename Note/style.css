@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: yellow;
+    margin: 100px auto;
+    padding: 40px;
+    max-width: 700px;
+    min-height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+.notes-container{
+    background-color: #fff;
+    margin: 50px;
+    min-height: 70px;
+    padding: 10px;
+    background: linear-gradient(135deg, yellow, #fff);
+    border-radius: 8px;
+    border: 2px solid wheat;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.input-box{
+    margin-top: 5px;
+    outline: 0;
+    border: 0;
+    color: blue;
+    border-radius: 5px;
+
+}
+
+.img{
+    width: 45px;
+    position: relative;
+    left: 95%;
+    bottom: 2%;
+    cursor: pointer;
+
+}
+.note-btn{
+    width: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    background: linear-gradient(135deg, yellow, #fff);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+hr{
+    margin-bottom: 20px;
+}

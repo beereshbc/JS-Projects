@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background-color: rgb(255, 236, 31);
+}
+
+.box{
+   background: #fff;
+   margin: 50px auto;
+    padding: 40px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.15);
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.btns button{
+    margin-top: px;
+   padding: 8px;
+   width: 150px;
+   margin-left: 10px;
+   cursor: pointer;
+   background-color:aqua;
+   color: black;
+   outline: 0;
+   border-radius: 4px;
+}
+
+.quote-area h1{
+font-size: 32px;
+margin-bottom: 20px;
+padding-bottom: 15px;
+border-bottom: 3px solid purple;
+}
+
+.quote-area p{
+  position: relative;
+  left: 250px;
+}
+
+#dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: #fff;
+}
+
+.sel-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(245, 21, 125);
+}
+
+.fev{
+    display:inline-flex;
+    margin: 10px;
+
+}
+
+#dot{
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#dot:hover{
+    background-color: rgb(245, 21, 125);
+}
